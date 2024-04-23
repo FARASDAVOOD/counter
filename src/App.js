@@ -10,8 +10,8 @@ let addCount= ()=>{
 }
   return (
      <div className="App">
-      <button onClick={addCount}>Add</button>
-      <h1>Counter {count}</h1>
+    <button onClick={addCount}>Add</button>
+      <h1>Counter: {count}</h1>
      </div>
    ) ;
    
